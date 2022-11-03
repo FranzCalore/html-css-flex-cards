@@ -1,3 +1,48 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Fredoka;
+}
+
 .flex {
     display: flex;
+    flex-wrap: wrap;
+}
+
+h1 {
+    color:deeppink;
+    margin: 40px auto;
+}
+
+.corpocentrale {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    width: 110px;
+    height: 110px;
+}
+
+.casella{
+    background-color: black;
+    color: white;
+    width: calc(100%/3 - 40px);
+    margin: 20px;
+    text-align: start;
+    min-width: 250px;
+}
+
+.linkcolorato {
+    color: darkcyan;
+}
+
+.textformat {
+    padding: 10px;
+}
+
+p {
+    margin: 10px auto;
 }
